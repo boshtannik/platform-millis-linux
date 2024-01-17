@@ -1,0 +1,17 @@
+[package]
+name = "platform-millis-linux"
+version = "1.0.0"
+edition = "2021"
+description = "implementation of platform-millis for linux"
+authors = ["Yevhen Shevchenko (boshtannik) <boshtannik@gmail.com>"]
+readmme = "README.md"
+repository = "https://github.com/boshtannik/platform-millis-linux"
+license-file = "LICENSE"
+keywords = ["embedded-nano-mesh", "platform", "millis"]
+categories = ["embedded", "date-and-time"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+platform-millis = "1.0.0"
+lazy_static = "1.4.0"
